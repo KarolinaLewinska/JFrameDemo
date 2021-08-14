@@ -1,4 +1,8 @@
-import javax.swing.*;
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JSplitPane;
+import javax.swing.JScrollPane;
 
 public class SplitPane extends JFrame {
     JLabel leftLabel = new JLabel();
