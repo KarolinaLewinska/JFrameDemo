@@ -11,8 +11,10 @@ public class SplitPane extends JFrame {
     JSplitPane splitPane = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT, new JScrollPane(leftLabel), new JScrollPane(rightLabel));
 
     public SplitPane() {
-        leftLabel.setIcon(new ImageIcon("C:/Users/lewin/Desktop/SwingApp/beach.jpg"));
-        rightLabel.setIcon(new ImageIcon("C:/Users/lewin/Desktop/SwingApp/summer.jpg"));
+        java.net.URL firstIconURL = Label.class.getResource("com/icons/beach.jpg");
+        java.net.URL secondIconURL = Label.class.getResource("com/icons/summer.jpg");
+        leftLabel.setIcon(new ImageIcon(firstIconURL));
+        rightLabel.setIcon(new ImageIcon(secondIconURL));
         add(splitPane);
     }
 

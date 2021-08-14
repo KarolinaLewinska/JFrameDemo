@@ -11,7 +11,7 @@ public class Panel extends JPanel {
 
     public Panel() {
         try {
-            image = ImageIO.read(new File("C:/Users/lewin/Desktop/SwingApp/summer.jpg"));
+            image = ImageIO.read(new File("src/com/icons/summer.jpg"));
         } catch (IOException e) {
             e.printStackTrace();
         }

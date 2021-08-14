@@ -10,7 +10,8 @@ public class Label {
         JLabel label = new JLabel();
         label.setText("Hello everyone!");
         label.setFont(new Font("Consolas", Font.PLAIN, 24));
-        label.setIcon(new ImageIcon("C:/Users/lewin/Desktop/SwingApp/beach.jpg"));
+        java.net.URL iconURL = Label.class.getResource("com/icons/beach.jpg");
+        label.setIcon(new ImageIcon(iconURL));
 
         frame.add(label);
 
