@@ -4,6 +4,7 @@ import javax.swing.JLabel;
 import java.awt.Font;
 
 public class Label {
+
     public static void main(String[] args) {
         JFrame frame = new JFrame("JLabel demo");
         JLabel label = new JLabel();
