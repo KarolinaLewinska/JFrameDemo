@@ -1,3 +1,5 @@
+package com.components;
+
 import javax.swing.JPanel;
 import javax.swing.JWindow;
 import java.awt.Color;

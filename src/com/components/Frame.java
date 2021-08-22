@@ -1,3 +1,5 @@
+package com.components;
+
 import javax.swing.JFrame;
 
 public class Frame {

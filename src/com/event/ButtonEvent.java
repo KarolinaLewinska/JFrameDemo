@@ -7,7 +7,7 @@ import java.awt.Color;
 
 public class ButtonEvent {
 
-    JFrame frame = new JFrame("Button event demo");
+    JFrame frame = new JFrame("com.components.Button event demo");
     JButton button = new JButton("Click me");
 
     public ButtonEvent() {

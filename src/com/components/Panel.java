@@ -1,3 +1,5 @@
+package com.components;
+
 import javax.imageio.ImageIO;
 import javax.swing.JPanel;
 import java.awt.Color;
