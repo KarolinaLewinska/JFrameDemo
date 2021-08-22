@@ -1,7 +1,5 @@
 package com.numbers;
 
-import com.numbers.JNumberTextField;
-
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
 
