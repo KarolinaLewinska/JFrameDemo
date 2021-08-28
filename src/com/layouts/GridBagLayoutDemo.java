@@ -17,22 +17,22 @@ public class GridBagLayoutDemo {
 
     public GridBagLayoutDemo() {
         panel.setLayout(new GridBagLayout());
-        GridBagConstraints gridBagConstraints = new GridBagConstraints();
-        gridBagConstraints.fill = GridBagConstraints.HORIZONTAL;
-        gridBagConstraints.insets = new Insets(5, 5, 5,5); //gaps for all buttons
+        GridBagConstraints gbc = new GridBagConstraints();
+        gbc.fill = GridBagConstraints.HORIZONTAL;
+        gbc.insets = new Insets(5, 5, 5,5); //gaps for all buttons
 
-        gridBagConstraints.gridx = 0; //column of btn1
-        gridBagConstraints.gridy = 0; //row of btn1
-        panel.add(btn1, gridBagConstraints);
+        gbc.gridx = 0; //column of btn1
+        gbc.gridy = 0; //row of btn1
+        panel.add(btn1, gbc);
 
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 0;
-        panel.add(btn2, gridBagConstraints);
+        gbc.gridx = 1;
+        gbc.gridy = 0;
+        panel.add(btn2, gbc);
 
-        gridBagConstraints.gridwidth = 2; //width as 2 columns
-        gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 1;
-        panel.add(btn3, gridBagConstraints);
+        gbc.gridwidth = 2; //width as 2 columns
+        gbc.gridx = 0;
+        gbc.gridy = 1;
+        panel.add(btn3, gbc);
 
         frame.add(panel);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
