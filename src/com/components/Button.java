@@ -15,7 +15,7 @@ public class Button {
             frame.add(button);
             button.setFont(new Font("Serif", Font.PLAIN, 18));
             button.setEnabled(true);
-            button.setIcon(new ImageIcon(Button.class.getResource("com/icons/accept.png")));
+            button.setIcon(new ImageIcon(Button.class.getResource("..\\icons\\accept.png")));
 
             frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
             frame.pack();

@@ -10,7 +10,7 @@ public class ScrollPane extends JFrame {
     JScrollPane scrollPane = new JScrollPane();
 
     public ScrollPane() {
-        java.net.URL iconURL = Label.class.getResource("com/icons/beach.jpg");
+        java.net.URL iconURL = getClass().getResource("..\\icons\\beach.jpg");
         label.setIcon(new ImageIcon(iconURL));
         scrollPane.setViewportView(label);
         add(scrollPane);

@@ -12,7 +12,7 @@ public class Label {
         JLabel label = new JLabel();
         label.setText("Hello everyone!");
         label.setFont(new Font("Consolas", Font.PLAIN, 24));
-        java.net.URL iconURL = Label.class.getResource("com/icons/beach.jpg");
+        java.net.URL iconURL = Label.class.getResource("..\\icons\\beach.jpg");
         label.setIcon(new ImageIcon(iconURL));
 
         frame.add(label);
