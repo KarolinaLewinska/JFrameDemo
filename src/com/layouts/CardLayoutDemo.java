@@ -6,8 +6,7 @@ import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
 import java.awt.CardLayout;
 import java.awt.Color;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+
 
 public class CardLayoutDemo {
     JFrame frame = new JFrame("CardLayout demo");
